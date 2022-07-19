@@ -1,0 +1,82 @@
+#tampil_modal {
+  padding-top: 10em;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: block;
+}
+#modal_gagal{
+  padding: 15px;
+  font-size: 16px;
+  background: #e74c3c;
+  color: #fff;
+  width: 480px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  z-index: 9;
+}
+#modal_berhasil{
+  padding: 15px;
+  font-size: 16px;
+  background: #157347;
+  color: #fff;
+  width: 480px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+  z-index: 9;
+}
+#paragraf{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#modal_atas_gagal{
+  width: 480px;
+  background:#c0392b;
+  padding: 15px;
+  margin-left: -15px;
+  font-size: 18px;
+  margin-top: -15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#modal_atas_berhasil{
+  width: 480px;
+  background:#0f5233;
+  padding: 15px;
+  margin-left: -15px;
+  font-size: 18px;
+  margin-top: -15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#oke_gagal {
+  background:#c0392b;
+  border:none;
+  float:right;
+  width:80px;
+  height:auto;
+  color: #fff;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#oke_berhasil {
+  background:#0f5233;
+  border:none;
+  float:right;
+  width:80px;
+  height:auto;
+  color: #fff;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
